@@ -16,7 +16,7 @@ const uk = {
   ranking: { eyebrow: 'БЕЗ ЖОДНОЇ УПЕРЕДЖЕНОСТІ', title: 'НАШ ОСОБИСТИЙ РЕЙТИНГ', items: ['EUR — однозначно так', 'USD', 'USDT / USDC', 'АВТО — ми не проти', 'ВІЛЛА В ІСПАНІЇ — ідеальний сценарій'], note: '«Цей рейтинг абсолютно неупереджений. Особливо перше місце.»' },
   story: { title: 'Найкращі речі не можна загорнути.', copy: 'Нам пощастило знайти одне одного. Тепер ми хочемо розділити цей день з людьми, які зробили нашу історію особливою.', sign: 'З любовʼю,' },
   contact: { eyebrow: 'ЗАЛИШИЛИСЯ ПИТАННЯ?', title: 'Напишіть нам.', copy: 'Ми з радістю підкажемо всі деталі — і будемо дуже чекати на зустріч.', telegram: 'TELEGRAM', whatsapp: 'WHATSAPP' },
-  footer: { line: 'ЗРОБЛЕНО З ЛЮБОВʼЮ ТА ЛЕГКИМ НАТЯКОМ НА EUR', top: 'ДО ПОЧАТКУ' },
+  footer: { line: 'ЗРОБЛЕНО З ЛЮБОВʼЮ — ДО ЗУСТРІЧІ 16.09.2026', top: 'ДО ПОЧАТКУ' },
   egg1: '«Ми просто залишимо це тут 😏»', egg2: '«Так, ви правильно зрозуміли. EUR 😌»',
 };
 
@@ -36,7 +36,7 @@ const en: typeof uk = {
   ranking: { eyebrow: 'COMPLETELY UNBIASED', title: 'OUR PERSONAL RANKING', items: ['EUR — definitely yes', 'USD', 'USDT / USDC', 'CAR — we wouldn’t complain', 'VILLA IN SPAIN — dream scenario'], note: '“This ranking is completely unbiased. Especially the first place.”' },
   story: { title: 'The best things can’t be wrapped.', copy: 'We were lucky enough to find each other. Now we want to share this day with the people who made our story special.', sign: 'With love,' },
   contact: { eyebrow: 'STILL HAVE A QUESTION?', title: 'Let’s talk.', copy: 'We’ll happily share every detail — and we cannot wait to celebrate together.', telegram: 'TELEGRAM', whatsapp: 'WHATSAPP' },
-  footer: { line: 'MADE WITH LOVE AND A VERY SUBTLE HINT ABOUT EUR', top: 'BACK TO TOP' },
+  footer: { line: 'MADE WITH LOVE — SEE YOU ON 16.09.2026', top: 'BACK TO TOP' },
   egg1: '“We’re just going to leave this here 😏”', egg2: '“Yes, you got the hint. EUR 😌”',
 };
 
@@ -56,7 +56,7 @@ const ru: typeof uk = {
   ranking: { eyebrow: 'АБСОЛЮТНО БЕСПРИСТРАСТНО', title: 'НАШ ЛИЧНЫЙ РЕЙТИНГ', items: ['EUR — однозначно да', 'USD', 'USDT / USDC', 'АВТОМОБИЛЬ — мы не против', 'ВИЛЛА В ИСПАНИИ — идеальный сценарий'], note: '«Этот рейтинг абсолютно непредвзятый. Особенно первое место.»' },
   story: { title: 'Лучшие вещи нельзя завернуть.', copy: 'Нам повезло найти друг друга. Теперь мы хотим разделить этот день с людьми, которые сделали нашу историю особенной.', sign: 'С любовью,' },
   contact: { eyebrow: 'ОСТАЛИСЬ ВОПРОСЫ?', title: 'Напишите нам.', copy: 'Мы с радостью подскажем все детали — и будем очень ждать нашей встречи.', telegram: 'TELEGRAM', whatsapp: 'WHATSAPP' },
-  footer: { line: 'СДЕЛАНО С ЛЮБОВЬЮ И ЛЁГКИМ НАМЁКОМ НА EUR', top: 'В НАЧАЛО' },
+  footer: { line: 'СДЕЛАНО С ЛЮБОВЬЮ — ДО ВСТРЕЧИ 16.09.2026', top: 'В НАЧАЛО' },
   egg1: '«Мы просто оставим это здесь 😏»', egg2: '«Да, вы всё правильно поняли. EUR 😌»',
 };
 
