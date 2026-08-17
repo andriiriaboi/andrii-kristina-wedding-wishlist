@@ -6,9 +6,9 @@ export const weddingConfig = {
   },
   initials: { first: 'А', second: 'К' },
   weddingDate: {
-    uk: 'ДАТА НЕЗАБАРОМ',
-    en: 'DATE TO BE ANNOUNCED',
-    ru: 'ДАТА СКОРО',
+    uk: '16.09.2026',
+    en: '16.09.2026',
+    ru: '16.09.2026',
   },
   telegram: { username: '@Andrii_Ryab', url: 'https://t.me/Andrii_Ryab' },
   whatsapp: {
