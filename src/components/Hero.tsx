@@ -22,6 +22,6 @@ export function Hero({ language, t }: { language: Language; t: Translation }) {
 }
 
 export function Marquee() {
-  const content = 'EUR · USD · EUR · USDT · USDC · CAR · VILLA IN SPAIN · EUR · ';
+  const content = 'EUR · USD · USDT · USDC · CAR · VILLA IN SPAIN · ';
   return <div className="marquee" aria-label="EUR, USD, USDT, USDC, CAR, VILLA IN SPAIN"><div>{content.repeat(3)}</div></div>;
 }
