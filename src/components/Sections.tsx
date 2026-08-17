@@ -15,8 +15,8 @@ export function Story({ t, language }: { t: Translation; language: Language }) {
   const ref = useScrollReveal<HTMLElement>();
   const names = weddingConfig.couple[language];
   return <section className="story reveal" ref={ref}>
-    <div className="story-mark" aria-hidden="true">{weddingConfig.initials.first}<i>&</i>{weddingConfig.initials.second}</div>
-    <div><p className="eyebrow">{t.story.eyebrow}</p><h2>{t.story.title}</h2><p>{t.story.copy}</p><span>{t.story.sign} {names.name1} & {names.name2}</span></div>
+    <div className="story-mark" aria-hidden="true"><span>{weddingConfig.initials.first}</span><i>&</i><span>{weddingConfig.initials.second}</span></div>
+    <div><p className="eyebrow">{t.story.eyebrow}</p><h2>{t.story.title}</h2><p>{t.story.copy}</p><span className="story-signature">{t.story.sign} {names.name1}<i>&</i>{names.name2}</span></div>
   </section>;
 }
 

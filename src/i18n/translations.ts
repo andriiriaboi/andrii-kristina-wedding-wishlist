@@ -2,7 +2,7 @@ export type Language = 'uk' | 'en' | 'ru';
 
 const uk = {
   a11y: { menu: 'Вибір мови', close: 'Закрити діалог', scroll: 'Перейти до подарунків' },
-  hero: { eyebrow: 'НАШ ВЕСІЛЬНИЙ WISHLIST', lead: 'Найкращий подарунок для нас — ваша присутність 🤍', sub: 'Але якщо ви хочете зробити нам подарунок, ми підготували декілька ідей.', quote: '«Даруйте все, що можна конвертувати в гроші.»', scroll: 'ГОРТАЙТЕ ДАЛІ' },
+  hero: { eyebrow: 'НАШ ВЕСІЛЬНИЙ WISHLIST', lead: 'Найкращий подарунок для нас — ваша присутність 🤍', sub: 'Але якщо ви хочете зробити нам подарунок, ми підготували декілька ідей.', scroll: 'ГОРТАЙТЕ ДАЛІ' },
   giftsIntro: { eyebrow: 'ДЛЯ НАШИХ НАЙРІДНІШИХ', title: 'ЩО НАМ ПОДАРУВАТИ?', copy: 'Декілька ідей, якщо ви хочете зробити наш день ще особливішим.' },
   gifts: {
     eur: { title: 'ЄВРО', copy: 'Наш пріоритетний варіант. Просто, красиво та завжди доречно.', cta: 'ПОДАРУВАТИ EUR', badge: 'НАШ ФАВОРИТ', label: 'MOST WANTED' },
@@ -22,7 +22,7 @@ const uk = {
 
 const en: typeof uk = {
   a11y: { menu: 'Language selection', close: 'Close dialog', scroll: 'Skip to gifts' },
-  hero: { eyebrow: 'OUR WEDDING WISHLIST', lead: 'Your presence is already the best gift. 🤍', sub: 'But if you would like to give us something, we prepared a few ideas.', quote: '“Basically, anything that can be converted into money works perfectly.”', scroll: 'SCROLL TO DISCOVER' },
+  hero: { eyebrow: 'OUR WEDDING WISHLIST', lead: 'Your presence is already the best gift. 🤍', sub: 'But if you would like to give us something, we prepared a few ideas.', scroll: 'SCROLL TO DISCOVER' },
   giftsIntro: { eyebrow: 'FOR OUR FAVORITE PEOPLE', title: 'HOW TO SPOIL US', copy: 'A few ideas if you would like to make our day even more special.' },
   gifts: {
     eur: { title: 'EURO', copy: 'Our preferred option. Simple, beautiful and always useful.', cta: 'GIFT EUR', badge: 'OUR FAVORITE', label: 'MOST WANTED' },
@@ -42,7 +42,7 @@ const en: typeof uk = {
 
 const ru: typeof uk = {
   a11y: { menu: 'Выбор языка', close: 'Закрыть диалог', scroll: 'Перейти к подаркам' },
-  hero: { eyebrow: 'НАШ СВАДЕБНЫЙ WISHLIST', lead: 'Лучший подарок для нас — ваше присутствие 🤍', sub: 'Но если вы хотите сделать нам подарок, мы подготовили несколько идей.', quote: '«Дарите всё, что можно конвертировать в деньги.»', scroll: 'ЛИСТАЙТЕ ДАЛЬШЕ' },
+  hero: { eyebrow: 'НАШ СВАДЕБНЫЙ WISHLIST', lead: 'Лучший подарок для нас — ваше присутствие 🤍', sub: 'Но если вы хотите сделать нам подарок, мы подготовили несколько идей.', scroll: 'ЛИСТАЙТЕ ДАЛЬШЕ' },
   giftsIntro: { eyebrow: 'ДЛЯ НАШИХ САМЫХ БЛИЗКИХ', title: 'ЧТО НАМ ПОДАРИТЬ?', copy: 'Несколько идей, если вы хотите сделать наш день ещё особенным.' },
   gifts: {
     eur: { title: 'ЕВРО', copy: 'Наш приоритетный вариант. Просто, красиво и всегда пригодится.', cta: 'ПОДАРИТЬ EUR', badge: 'НАШ ФАВОРИТ', label: 'MOST WANTED' },

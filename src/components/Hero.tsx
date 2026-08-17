@@ -16,7 +16,6 @@ export function Hero({ language, t }: { language: Language; t: Translation }) {
       <div className="hero-rule hero-a4" />
       <p className="hero-lead hero-a5">{t.hero.lead}</p>
       <p className="hero-sub hero-a6">{t.hero.sub}</p>
-      <blockquote className="hero-quote hero-a6">{t.hero.quote}</blockquote>
     </div>
     <a className="scroll-indicator hero-a7" href="#gifts" aria-label={t.a11y.scroll}><span>{t.hero.scroll}</span><i>↓</i></a>
   </section>;
